@@ -47,14 +47,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Encryption.cs" />
+    <Compile Include="FindFriend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindFriend.Designer.cs">
+      <DependentUpon>FindFriend.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="MessagingGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessagingGUI.Designer.cs">
+      <DependentUpon>MessagingGUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FindFriend.resx">
+      <DependentUpon>FindFriend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessagingGUI.resx">
+      <DependentUpon>MessagingGUI.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
